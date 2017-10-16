@@ -570,6 +570,7 @@ vim /etc/sysconfig/selinux
 ## Storage 
 MBR GPT Partiotnios
 ```
+du -sh */
 df -h
 cat /proc/partitions
 lsblk
@@ -581,6 +582,7 @@ lsblk -io KNAME,TYPE,SIZE,MODEL
 ```
 Filesystems
 ```
+du -sh */
 df -h
 lsblk -io KNAME,TYPE,SIZE,MODEL
 mkfs.ext4 --help
